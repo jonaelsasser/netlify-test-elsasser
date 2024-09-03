@@ -15,6 +15,16 @@ featuredImage:
       borderRadius: large
   type: ImageBlock
 bottomSections:
+  - title: Divider
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        padding:
+          - pt-7
+          - pl-7
+          - pb-7
+          - pr-7
+    type: DividerSection
   - items:
       - title: About Company
         tagline: This is the tagline
@@ -60,16 +70,6 @@ bottomSections:
       subtitle:
         textAlign: center
     type: FeaturedItemsSection
-  - title: Divider
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-7
-          - pl-7
-          - pb-7
-          - pr-7
-    type: DividerSection
 isFeatured: true
 colors: bg-light-fg-dark
 styles:
